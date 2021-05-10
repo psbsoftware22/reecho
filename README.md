@@ -6,10 +6,10 @@ Now a days autoencoders is polpular in various field.  But, there is twoapplicat
     * Constructing New Images
     * Colouring Images
 
-####Code File:
+#### Code File:
 * All the code is used inside the reecho_model.ipynb notebook to run image processing.
 * The autoencoder model is saved as variational_autoencoder.py.
-####Report:
-* The report on this project is saved as autoencoder_report.pdf.
-####Run Test:
+#### Report:
+* The report on this project is saved as report.pdf.
+#### Run Test:
 * To run test you need to run the test_model.py python file.
