@@ -6,6 +6,9 @@ Now a days autoencoders is polpular in various field.  But, there is twoapplicat
     * Constructing New Images
     * Colouring Images
 
+#### Dataset:
+* The dataset is from the below link:
+http://vis-www.cs.umass.edu/lfw/lfw.tgz
 #### Code File:
 * All the code is used inside the reecho_model.ipynb notebook to run image processing.
 * The autoencoder model is saved as variational_autoencoder.py.
@@ -13,13 +16,15 @@ Now a days autoencoders is polpular in various field.  But, there is twoapplicat
 * The report on this project is saved as report.pdf.
 #### Run Test:
 * To run test you need to run the test_model.py python file.
-* Dowload the project and run the python file in the same directory
+* Dowload the project and run the below command in the same directory
 ***
-    python run test_model.py
+    python test_model.py
 ***
+* Or, double click on the test_model.py file.
 
 #### Results:
-* Although the result is not promissing but still the model works really well, under these circumtances (lower amount of data and lower training time)
+* Although the result is not promissing, the model works really well despite of lower amount of data and lower training time.
+* By using some generated images and increase the image resolution we can achieve better result.
 * AThe original and reconstructed data in 'image reconstruction' model
 ![image](https://drive.google.com/uc?export=view&id=1qxioB3VweZ_ic4RUoi2FNbAS6800EZ2y)
 * The noise and reconstructed data in 'noise reduction' model
